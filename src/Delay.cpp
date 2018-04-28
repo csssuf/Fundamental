@@ -2,7 +2,7 @@
 #include "dsp/samplerate.hpp"
 #include "dsp/ringbuffer.hpp"
 #include "dsp/filter.hpp"
-#include "samplerate.h"
+#include <samplerate.h>
 
 
 #define HISTORY_SIZE (1<<21)
